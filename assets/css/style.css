@@ -1,0 +1,150 @@
+body {
+    margin: 0 auto;
+}
+
+/* Colores */
+
+.bg_dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Navbar */
+
+nav {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+}
+nav h1 {
+    font-size: 3.125rem;
+    font-family: "raleway";
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-image: url(/assets/img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 727px;
+    width: 100%;
+}
+
+/* Descripción */
+
+#descripcion {
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.texto_descripcion {
+    display: inline-block;
+    width: 420px;
+    vertical-align: middle;
+}
+
+.texto_descripcion p {
+    font-family: "raleway";
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.imagen_descripcion {
+    display: inline-block;
+    width: 420px;
+    vertical-align: middle;
+}
+.imagen_descripcion img {
+    width: 100%;
+}
+/* Caracteristicas */
+
+#caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#caracteristicas h2 {
+    font-family: "raleway";
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+#caracteristicas h3 {
+    font-family: "raleway";
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#caracteristicas article {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.caracteristicas_mediano {
+    margin: 0 60px;
+}
+
+/* Galería */
+
+#galeria {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#galeria div {
+    width: 300px;
+    display: inline-block;
+}
+
+.galeria_mediano {
+    margin: 0 20px;
+}
+
+#galeria .imagen_01 {
+    height: 220px;
+    width: auto;
+}
+
+#galeria .imagen_02 {
+    height: 220px;
+    width: auto;
+}
+
+#galeria .imagen_03 {
+    height: 220px;
+    width: auto;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #1E1A13;
+}
+
+footer p {
+    font-family: "raleway";
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "raleway";
+    font-weight: 300;
+    font-size: 1.25rem;
+}
